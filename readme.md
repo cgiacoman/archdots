@@ -2,7 +2,10 @@
 ![Qtile](/qtile/screenshot1.png)
 ![Qtile](/qtile/screenshot.png)
 ## Guide to install everything :)
-Initial config:
+
+1. Install arch linux using installation guide:
+https://wiki.archlinux.org/title/Installation_guide
+
 
 Install essential packages:
 ```pacman -S vi vim sudo nano```
