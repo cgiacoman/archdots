@@ -1,6 +1,7 @@
 # Arch Linux - QTILE
 
 ![Qtile](/qtile/screenshot.png)
+![Qtile](/qtile/screenshot1.png)
 ## Guide to install everything :)
 Initial config:
 
