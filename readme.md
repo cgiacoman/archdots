@@ -66,13 +66,15 @@ Open lxapperance, change GTK theme to catpuccin-frappe-red and icon pack to Papi
 ```
 lxapperance
 ```
-Change alacritty theme:
+Change alacritty theme, add transparency:
 ```
 git clone https://github.com/catpuccin/alacritty.git ~/.config/alacritty/catpuccin
 ---
 ~/.config/alacritty/alacritty.yml
 import:
   ~/.config/alacritty/catpuccin/catpuccin-frappe.yml
+window:
+  opacity:0.9
 ```
 
 Enable and start bluetooth service:
