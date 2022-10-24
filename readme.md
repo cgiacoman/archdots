@@ -1,6 +1,6 @@
 # Arch Linux - QTILE
 
-![alt text](https://github.com/cgiacoman/archdots/qtile/screenshot.png?raw=true)
+![Qtile](/qtile/screenshot.png)
 ## Guide to install everything :)
 Initial config:
 
