@@ -33,14 +33,6 @@ Install ALL packages:
 ```
 sudo pacman -S alacritty firefox code lib32-systemd base-devel thunar autoconf automake base bison brightnessctl cmake debugedit efibootmgr fakeroot gcc grub git make xf86-video-intel reflector mypy flex groff hwinfo lightdm lightdm-gtk-greeter lxappearance m4 nano netctl networkmanager nm-connection-editor papirus-icon-theme ntfs-3g patch picom pkgconf python-iwlib python-pip qtile rofi texinfo os-prober xorg gtop htop gimp calc cmatrix code discord dolphin fbida feh filezilla flameshot gnome-calculator gnome-clocks thunar tor transmission-gtk vlc zim libreoffice-fresh neofetch obs-studio pcmanfm-gtk3 speedtest-cli steam adobe-source-sans-fonts nerd-fonts-ubuntu-mono adobe-source-serif-fonts ttf-caladea ttf-carlito ttf-dejavu ttf-liberation ttf-linux-libertine-g pamixer pulseaudio pulseaudio-bluetooth pulseaudio-equalizer alsa-utils bluez bluez-utils d-feet blueberry
 ```
-
-Enable LightDM & NetworkManager:
-```
-systemctl enable lightdm.service
-systemctl enable NetworkManager
-exit
-reboot
-```
 Install AUR Helper (yay)
 ```
 git clone https://aur.archlinux.org/yay.git
@@ -51,6 +43,14 @@ Install AUR Packages:
 ```
 yay -S lightdm-webkit-theme-osmos catpuccin-gtk-theme-mocha catpuccin-gtk-theme-macchiato catpuccin-gtk-theme-frappe catpuccin-gtk-theme-latte downgrade
 ```
+Enable LightDM & NetworkManager:
+```
+systemctl enable lightdm.service
+systemctl enable NetworkManager
+exit
+reboot
+```
+
 ###### If LightDM doesn't boot, use the downgrade command on the webkit2gtk package to 2.36.7-1.
 Install windows fonts on /usr/local/share/fonts/ (Get from a Windows system)
 
