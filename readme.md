@@ -12,7 +12,8 @@ Allow wheel group to use sudo commands:
 
 ```
 /etc/sudoers
-%wheel      ALL=(ALL:ALL) ALL
+## Uncomment to allow members of group wheel to execute any command
+%wheel ALL=(ALL:ALL) ALL
 ```
 Add user, create root and user password:
 ```
