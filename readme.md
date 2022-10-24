@@ -6,7 +6,10 @@
 1. Install arch linux using installation guide:
 https://wiki.archlinux.org/title/Installation_guide
 
-
+Change mirrors:
+```
+sudo reflector --latest 20 --protocol https --sort rate --save /etc/pacman.d/mirrorlist
+```
 Install essential packages:
 ```pacman -S vi vim sudo nano```
 
