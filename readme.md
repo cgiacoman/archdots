@@ -1,6 +1,6 @@
-# Arch Linux dotfiles
+# Arch Linux - QTILE
 
-
+![alt text](https://github.com/cgiacoman/archdots/qtile/screenshot.png?raw=true)
 ## Guide to install everything :)
 Initial config:
 
