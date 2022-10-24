@@ -35,9 +35,9 @@ sudo pacman -S alacritty firefox code lib32-systemd base-devel thunar autoconf a
 ```
 Install AUR Helper (yay)
 ```
-git clone https://aur.archlinux.org/yay.git
-cd yay
-makepkg -si
+git clone https://aur.archlinux.org/yay.git \
+cd yay \
+makepkg -si \
 ```
 Install AUR Packages: 
 ```
