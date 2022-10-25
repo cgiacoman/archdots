@@ -73,7 +73,7 @@ Install windows fonts on /usr/local/share/fonts/ (Get from a Windows system)
 
 Clone this repository, copy configs:
 ```
-git clone https://cgiacoman/archdots ~/
+git clone https://github.com/cgiacoman/archdots ~/archdots
 cd ~/archdots
 sudo cp -r qtile/ ~/.config/qtile
 sudo cp -r wallpapers/ /wallpapers
