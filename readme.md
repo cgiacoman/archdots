@@ -101,3 +101,7 @@ sudo systemctl enable bluetooth.service
 sudo systemctl start bluetooth.service
 sudo systemctl status bluetooth.service
 ```
+Install qtile bluetooth dependency:
+```
+pip install dbus-next
+```
