@@ -54,7 +54,7 @@ makepkg -si \
 ```
 Install AUR Packages: 
 ```
-yay -S lightdm-webkit-theme-osmos catpuccin-gtk-theme-mocha catpuccin-gtk-theme-macchiato catpuccin-gtk-theme-frappe catpuccin-gtk-theme-latte downgrade nerd-fonts-ubuntu-mono teamviewer parsec-bin
+yay -S lightdm-webkit-theme-osmos catppuccin-gtk-theme-mocha catppuccin-gtk-theme-macchiato catppuccin-gtk-theme-frappe catppuccin-gtk-theme-latte downgrade nerd-fonts-ubuntu-mono teamviewer parsec-bin
 ```
 Start teamviewer daemon:
 ```
