@@ -77,6 +77,7 @@ git clone https://github.com/cgiacoman/archdots ~/archdots
 cd ~/archdots
 sudo cp -r qtile/ ~/.config/qtile
 sudo cp -r wallpapers/ /wallpapers
+sudo chmod +x ~/.config/qtile/autostart.sh
 ```
 
 Open lxapperance, change GTK theme to catpuccin-frappe-red and icon pack to Papirus:
