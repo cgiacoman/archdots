@@ -79,7 +79,11 @@ sudo cp -r qtile/ ~/.config/qtile
 sudo cp -r wallpapers/ /wallpapers
 sudo chmod +x ~/.config/qtile/autostart.sh
 ```
-
+Add user image:
+```
+cd wallpapers/
+sudo mv username.png ~/.face
+```
 Open lxapperance, change GTK theme to catpuccin-frappe-red and icon pack to Papirus:
 ```
 lxapperance
