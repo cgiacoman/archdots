@@ -79,7 +79,8 @@ sudo cp -r qtile/ ~/.config/qtile
 sudo cp -r wallpapers/ /wallpapers
 sudo chmod +x ~/.config/qtile/autostart.sh
 ```
-Add picture to LightDM: ###### Replace 'username' with account user
+Add picture to LightDM:
+###### Replace 'username' with account user
 ```
 cd wallpapers/
 sudo mv username.png /var/lib/AccountsService/icons/username.png
