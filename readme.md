@@ -15,8 +15,9 @@ Install essential packages:
 pacman -S vi vim sudo nano networkmanager
 ```
 Enable NetworkManager
+```
 systemctl enable NetworkManager
-
+```
 Allow wheel group to use sudo commands:
 ```EDITOR=nano visudo```
 
