@@ -43,7 +43,7 @@ Include = /etc/pacman.d/mirrorlist
 Install ALL packages:
 
 ```
-sudo pacman -S alacritty firefox code lib32-systemd base-devel thunar autoconf automake base bison brightnessctl cmake debugedit efibootmgr fakeroot gcc grub git make xf86-video-intel reflector mypy flex groff hwinfo lightdm lightdm-gtk-greeter lxappearance m4 nano netctl networkmanager nm-connection-editor papirus-icon-theme ntfs-3g patch picom pkgconf python-iwlib python-pip qtile rofi texinfo os-prober xorg gtop htop gimp calc cmatrix code discord dolphin fbida feh filezilla flameshot gnome-calculator gnome-clocks thunar tor transmission-gtk vlc zim libreoffice-fresh neofetch obs-studio pcmanfm-gtk3 speedtest-cli steam adobe-source-sans-fonts adobe-source-serif-fonts ttf-caladea ttf-carlito ttf-dejavu ttf-liberation ttf-linux-libertine-g pamixer pulseaudio pulseaudio-bluetooth pulseaudio-equalizer alsa-utils bluez bluez-utils d-feet blueberry cheese gnome-calendar dolphin-emu 
+sudo pacman -S adobe-source-sans-fonts adobe-source-serif-fonts alacritty alsa-utils base-devel blueberry brightnessctl cheese cmatrix code d-feet discord dolphin dolphin-emu fbida feh ffmpeg filezilla firefox flameshot gimp gnome-boxes gnome-calculator gnome-calendar gnome-clocks gparted grub-customizer gtop htop libreoffice-fresh lightdm lightdm-gtk-greeter lightdm-webkit2-greeter lxapperance neofetch networkmanager nmtui ntfs-3g obs-studio pamixer papirus-icon-theme picom pulseaudio qtile reflector rofi samba speedtest-cli steam thunar tor transmission-gtk ttf-caladea ttf-carlito ttf-dejavu ttf-liberation ttf-linux-libertine-g unzip vlc xorg zim zip
 ```
 Reboot the system:
 ```
@@ -57,7 +57,7 @@ makepkg -si \
 ```
 Install AUR Packages: 
 ```
-yay -S lightdm-webkit-theme-osmos catppuccin-gtk-theme-mocha catppuccin-gtk-theme-macchiato catppuccin-gtk-theme-frappe catppuccin-gtk-theme-latte downgrade nerd-fonts-ubuntu-mono teamviewer parsec-bin
+yay -S catppuccin-gtk-theme-frappe catppuccin-gtk-theme-latte catppuccin-gtk-theme-macchiato catppuccin-gtk-theme-mocha downgrade firefox-profile-switcher-connector lightdm-webkit-theme-osmos nerd-fonts-ubuntu-mono parsec-bin teamviewer upnp-router-control wii-u-gc-adapter
 ```
 Start teamviewer daemon:
 ```
