@@ -53,6 +53,8 @@ Install AUR Helper (yay)
 git clone https://aur.archlinux.org/yay.git \
 cd yay \
 makepkg -si \
+cd .. \
+sudo rm -r yay \
 ```
 Install AUR Packages: 
 ```
