@@ -20,13 +20,13 @@ systemctl enable NetworkManager
 ```
 Allow wheel group to use sudo commands:
 ```EDITOR=nano visudo```
-
 ```
 /etc/sudoers
 ## Uncomment to allow members of group wheel to execute any command
 %wheel ALL=(ALL:ALL) ALL
 ```
 Add user, create root and user password:
+###### Replace 'User' with desired user ###### 
 ```
 useradd -m --badname User
 passwd 
@@ -41,7 +41,6 @@ Include = /etc/pacman.d/mirrorlist
 ```
 
 Install ALL packages:
-
 ```
 sudo pacman -S adobe-source-sans-fonts adobe-source-serif-fonts alacritty alsa-utils base-devel blueberry brightnessctl cheese cmatrix code d-feet discord dolphin dolphin-emu fbida feh ffmpeg filezilla firefox flameshot gimp gnome-boxes gnome-calculator gnome-calendar gnome-clocks gparted grub-customizer gtop htop libreoffice-fresh lightdm lightdm-gtk-greeter lightdm-webkit2-greeter lxapperance neofetch nmtui ntfs-3g obs-studio pamixer papirus-icon-theme picom pulseaudio qtile reflector rofi samba speedtest-cli steam thunar tor transmission-gtk ttf-caladea ttf-carlito ttf-dejavu ttf-liberation ttf-linux-libertine-g unzip vlc xorg zim zip
 ```
