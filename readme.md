@@ -83,15 +83,15 @@ sudo cp -r qtile/ ~/.config/qtile
 sudo cp -r wallpapers/ /wallpapers
 sudo chmod +x ~/.config/qtile/autostart.sh
 ```
-Add picture to LightDM:
-###### Replace 'username' with account user
+Add profile picture to user in LightDM:
+###### Replace 'User' with account user
 ```
 cd wallpapers/
-sudo mv username.png /var/lib/AccountsService/icons/username.png
-sudo rm /var/lib/AccountsService/users/username
-sudo touch /var/lib/AccountsService/users/username
+sudo mv User.png /var/lib/AccountsService/icons/User.png
+sudo rm /var/lib/AccountsService/users/User
+sudo touch /var/lib/AccountsService/users/User
 udo echo "[User]
-Icon=/var/lib/AccountsService/icons/username.png" | sudo tee /var/lib/AccountsService/users/username
+Icon=/var/lib/AccountsService/icons/User.png" | sudo tee /var/lib/AccountsService/users/User
 ```
 Open lxapperance, change GTK theme to catpuccin-frappe-red and icon pack to Papirus:
 ```
