@@ -1,5 +1,6 @@
 # Arch Linux - QTILE
-with multiple themes! :)
+with multiple themes! :)\
+<br>
 ![Qtile](/qtile/screenshot-red2.png)
 ![Qtile](/qtile/screenshot-red1.png)
 ![Qtile](/qtile/screenshot-black2.png)
