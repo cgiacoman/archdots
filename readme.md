@@ -125,7 +125,7 @@ sudo systemctl status bluetooth.service
 
 ## Color scheme info
 The colors are easily modified by changing the hex values on the variables at the start of the config.py file. The setup is made so that it works with two colors, but it can be adapted to use only one. It uses the qtile-extra powerbar feature so that when the colors are changed, the powerbar is modified too. 
-
+There are some example themes inside, just uncomment the one that you're going to use.
 Variables work like this:
 ```
 bar_bg: Background of the bar
