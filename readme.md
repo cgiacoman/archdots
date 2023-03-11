@@ -1,7 +1,6 @@
 # Arch Linux - QTILE
 ![Qtile](/qtile/screenshot-red2.png)
 ![Qtile](/qtile/screenshot-red1.png)
-![Qtile](/qtile/screenshot-black1.png)
 ![Qtile](/qtile/screenshot-black2.png)
 Use table of contents for better navigation :)
 
