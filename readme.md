@@ -6,13 +6,19 @@
 1. Install arch linux using installation guide:
 https://wiki.archlinux.org/title/Installation_guide
 
+Inside chroot:
+
 Change mirrors:
 ```
 sudo reflector --latest 20 --protocol https --sort rate --save /etc/pacman.d/mirrorlist
 ```
 Install essential packages:
 ```
-pacman -S vi vim sudo nano networkmanager
+pacman -S reflector vi vim  sudo nano networkmanager base-devel picom git qtile lightdm-webkit2-greeter lightdm-webkit-theme-osmos xorg-server feh firefox code pulseaudio pulseaudio-equalizer pulseaudio-alsa pamixer pavucontrol python-iwlib python-dbus-next d-feet blueberry brightnessctl dolphin adobe-source-sans-fonts adobe-source-serif-fonts ttf-ubuntu-mono-nerd fbida feh thunar flameshot gimp gnome-boxes gparted grub-customizer htop libreoffice-fresh ntfs-3g obs-studio rofi tor ttf-caladea ttf-carlito ttf-dejavu ttf-liberation ttf-linux-libertine-g unzip vlc zip
+```
+Install non essential packages: (optional)
+```
+sudo pacman -S discord dolphin-emu steam zim gnome-calculator gnome-calendar gnome-clocks filezilla papirus-icon-theme lxapperance neofetch speedtest-cli samba transmission-gtk
 ```
 Enable NetworkManager
 ```
@@ -40,10 +46,6 @@ Enable multilib repository on pacman:
 Include = /etc/pacman.d/mirrorlist
 ```
 
-Install ALL packages:
-```
-sudo pacman -S adobe-source-sans-fonts adobe-source-serif-fonts alacritty alsa-utils base-devel blueberry brightnessctl cheese cmatrix code d-feet discord dolphin dolphin-emu fbida feh ffmpeg filezilla firefox flameshot gimp gnome-boxes gnome-calculator gnome-calendar gnome-clocks gparted grub-customizer gtop htop libreoffice-fresh lightdm lightdm-gtk-greeter lightdm-webkit2-greeter lxapperance neofetch nmtui ntfs-3g obs-studio pamixer papirus-icon-theme picom pulseaudio qtile reflector rofi samba speedtest-cli steam thunar tor transmission-gtk ttf-caladea ttf-carlito ttf-dejavu ttf-liberation ttf-linux-libertine-g unzip vlc xorg zim zip
-```
 Reboot the system:
 ```
 reboot
@@ -55,9 +57,13 @@ git clone https://aur.archlinux.org/paru.git \
 cd paru \
 makepkg -si \
 ```
-Install AUR Packages: 
+Instal essential AUR packages
 ```
-yay -S catppuccin-gtk-theme-frappe catppuccin-gtk-theme-latte catppuccin-gtk-theme-macchiato catppuccin-gtk-theme-mocha downgrade firefox-profile-switcher-connector lightdm-webkit-theme-osmos nerd-fonts-ubuntu-mono parsec-bin teamviewer upnp-router-control wii-u-gc-adapter
+paru -S downgrade firefox-profile-switcher-connector qtile-extras-git
+```
+Install not essential AUR packages (optional)
+```
+paru -S catppuccin-gtk-theme-frappe catppuccin-gtk-theme-latte catppuccin-gtk-theme-macchiato catppuccin-gtk-theme-mocha parsec-bin teamviewer upnp-router-control wii-u-gc-adapter
 ```
 Start teamviewer daemon:
 ```
@@ -112,8 +118,4 @@ Enable and start bluetooth service:
 sudo systemctl enable bluetooth.service
 sudo systemctl start bluetooth.service
 sudo systemctl status bluetooth.service
-```
-Install qtile bluetooth dependency:
-```
-pip install dbus-next
 ```
