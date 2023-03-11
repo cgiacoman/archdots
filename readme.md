@@ -127,10 +127,12 @@ sudo systemctl status bluetooth.service
 The colors are easily modified by changing the hex values on the variables at the start of the config.py file. The setup is made so that it works with two colors, but it can be adapted to use only one. It uses the qtile-extra powerbar feature so that when the colors are changed, the powerbar is modified too. 
 
 Variables work like this:
-# bar_bg: Background of the bar
-# bar_inactive: Color of the groups that don't have any windows.
-# bar_active: Color of the groups that have a window inside.
-# bar_focus: Color of the group that you have curently open.
+```
+bar_bg: Background of the bar
+bar_inactive: Color of the groups that don't have any windows.
+bar_active: Color of the groups that have a window inside.
+bar_focus: Color of the group that you have curently open.
 
-# colorx_bg: Foreground of the widget that has color x
-# colorx_fg: Background of the widget that has color x
+colorx_bg: Foreground of the widget that has color x
+colorx_fg: Background of the widget that has color x
+```
