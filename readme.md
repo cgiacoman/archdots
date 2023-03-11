@@ -48,7 +48,7 @@ Reboot the system:
 ```
 reboot
 ```
-Install AUR Helper (yay)
+Install AUR Helper (paru)
 ```
 sudo pacman -S --needed base-devel \
 git clone https://aur.archlinux.org/paru.git \
