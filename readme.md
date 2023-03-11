@@ -32,7 +32,7 @@ Allow wheel group to use sudo commands:
 %wheel ALL=(ALL:ALL) ALL
 ```
 Add user, create root and user password:
-###### Replace 'User' with desired user ###### 
+> Replace 'User' with desired user 
 ```
 useradd -m --badname User
 passwd 
@@ -69,6 +69,7 @@ Start teamviewer daemon:
 ```
 teamviewer --daemon start
 ```
+> If LightDM doesn't boot, use the downgrade command on the webkit2gtk package to 2.36.7-1.
 Enable LightDM & NetworkManager:
 ```
 systemctl enable lightdm.service
@@ -77,7 +78,7 @@ exit
 reboot
 ```
 
-###### If LightDM doesn't boot, use the downgrade command on the webkit2gtk package to 2.36.7-1.
+
 Install windows fonts on /usr/local/share/fonts/ (Get from a Windows system)
 
 Clone this repository, copy configs:
@@ -89,7 +90,7 @@ sudo cp -r wallpapers/ /wallpapers
 sudo chmod +x ~/.config/qtile/autostart.sh
 ```
 Add profile picture to user in LightDM:
-###### Replace 'User' with account user
+> Replace 'User' with account user
 ```
 cd wallpapers/
 sudo mv User.png /var/lib/AccountsService/icons/User.png
