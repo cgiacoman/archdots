@@ -2,6 +2,7 @@
 ![Qtile](/qtile/screenshot-red2.png)
 ![Qtile](/qtile/screenshot-red1.png)
 ![Qtile](/qtile/screenshot-black2.png)
+![Qtile](/qtile/screenshot-black1.png)
 Use table of contents for better navigation :)
 
 ## Guide to setup post-installation 
